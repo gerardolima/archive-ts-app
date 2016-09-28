@@ -19,13 +19,22 @@ This package exports Joanne's implementation of a function to add commas to numb
   Output should be `35,666`
 
 
+## Build
+  Currenly this repository package only relies on npm scripts. 
+
+  `npm run clean`
+  `npm run build`
+
+  These need to be *bash* scripts, so that the continuous integration and the coverage tests run properly. To run them on windows, you need to specify the command interpreterto npm [(more information here)](http://stackoverflow.com/questions/35462422/force-node-to-use-git-bash-on-windows).
+
+  `export "comspec=C:\Program Files\Git\git-bash.exe"`
+
+  I am intending to use Gulp to avoid these kind of system specifities.
+
+
 ## Tests
 
   `npm test`
-
-## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Code status 
 [![Build Status](https://travis-ci.org/gerardolima/npm.svg?branch=master)](https://travis-ci.org/gerardolima/npm)
