@@ -26,3 +26,7 @@ This package exports Joanne's implementation of a function to add commas to numb
 ## Contributing
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
+
+## Code status 
+[![Build Status](https://travis-ci.org/gerardolima/npm.svg?branch=master)](https://travis-ci.org/gerardolima/npm)
+[![Coverage Status](https://coveralls.io/repos/github/gerardolima/npm/badge.svg?branch=master)](https://coveralls.io/github/gerardolima/npm?branch=master)
