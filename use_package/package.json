@@ -1,0 +1,10 @@
+{
+  "name": "use-gerardolima-number-formatter",
+  "description": "this is a test to install and use 'gerardolima-number-formatter'",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies":
+  {
+      "gerardolima-number-formatter": "*"
+  }
+}
