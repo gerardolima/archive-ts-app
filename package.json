@@ -1,5 +1,5 @@
 {
-  "name": "@gerardolima/number-formatter",
+  "name": "gerardolima-number-formatter",
   "version": "0.0.1",
   "description": "Test for creating a Npm package.",
   "main": "index.js",
