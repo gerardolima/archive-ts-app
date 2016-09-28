@@ -1,10 +1,9 @@
 {
   "name": "use-gerardolima-number-formatter",
-  "description": "this is a test to install and use 'gerardolima-number-formatter'",
+  "description": "this is a test to install and use 'gerardolima-number-formatter', change '../' for '*' to use the latest npm based package.",
   "version": "0.0.1",
   "private": true,
-  "dependencies":
-  {
-      "gerardolima-number-formatter": "*"
+  "dependencies":  {
+      "gerardolima-number-formatter": "../"
   }
 }

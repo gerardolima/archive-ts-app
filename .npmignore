@@ -1,0 +1,10 @@
+# minimal package
+
+# exclude everything
+*
+
+# make explicit exception to the following files
+!index.js
+!package.json
+!README.md
+!LICENCE
