@@ -23,9 +23,10 @@ This package exports Joanne's implementation of a function to add commas to numb
   Currenly this repository package only relies on npm scripts. 
 
   `npm run clean`
+  
   `npm run build`
 
-  These need to be *bash* scripts, so that the continuous integration and the coverage tests run properly. To run them on windows, you need to specify the command interpreterto npm [(more information here)](http://stackoverflow.com/questions/35462422/force-node-to-use-git-bash-on-windows).
+  Currenntly, these scripts need to run on **bash**, so that the [continuous integration](http://travis-ci.org) and the [coverage tests](http://coveralls.io/) run properly. To run them on windows, you need to create an evironment variable to inform **npm** to use bash, instead of the standard command interpreter ([more information here](http://stackoverflow.com/questions/35462422/force-node-to-use-git-bash-on-windows)).
 
   `export "comspec=C:\Program Files\Git\git-bash.exe"`
 
