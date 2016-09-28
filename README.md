@@ -7,11 +7,11 @@ This package exports Joanne's implementation of a function to add commas to numb
 
 ## Installation
 
-  `npm install @gerardolima/number-formatter`
+  `npm install gerardolima-number-formatter`
 
 ## Usage
 
-    var numFormatter = require('@gerardolima/number-formatter');
+    var numFormatter = require('gerardolima-number-formatter');
 
     var formattedNum = numFormatter(35666);
   
