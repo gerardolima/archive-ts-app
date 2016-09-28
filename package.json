@@ -1,6 +1,6 @@
 {
   "name": "gerardolima-number-formatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Test for creating a Npm package.",
   "main": "index.js",
   "scripts": {
