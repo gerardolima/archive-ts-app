@@ -6,3 +6,4 @@ This is a personal study on the necessary steps to develop an Angular applicatio
 ## Status
 
 The fisrt goal of this repository is to create the minimum scarfolding to the application, including the build process to compile TypeScript and run unit tests. 
+
