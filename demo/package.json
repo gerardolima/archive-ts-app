@@ -1,0 +1,9 @@
+{
+  "name": "use-gerardolima-ts-app",
+  "description": "this is a test to install and use 'gerardolima-ts-app', change '../' for '*' to use the latest npm based package.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies":  {
+      "gerardolima-ts-app": "../"
+  }
+}

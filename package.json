@@ -1,28 +1,28 @@
 {
-  "name": "gerardolima-number-formatter",
-  "version": "1.0.5",
-  "description": "Test for creating a Npm package.",
-  "main": "index.js",
+  "name": "gerardolima-ts-app",
+  "version": "0.0.1",
+  "description": "Test for building an Angular application using Typescript.",
+  "main": "./src/ts-app.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "clean": "rm -rf *.js",
-    "build": "tsc index.ts --module commonjs",
+    "clean": "rm -rf ./src/*.js",
+    "build": "tsc ./src/ts-app.ts --module commonjs",
     "cover": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerardolima/npm.git"
+    "url": "git+https://github.com/gerardolima/ts-app.git"
   },
   "keywords": [
-    "npm",
+    "ts-app",
     "sample"
   ],
   "author": "Gerardo Lima <gerardo.lima@gmail.com> (https://pt.linkedin.com/in/gerardolima)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gerardolima/npm/issues"
+    "url": "https://github.com/gerardolima/ts-app/issues"
   },
-  "homepage": "https://github.com/gerardolima/npm#readme",
+  "homepage": "https://github.com/gerardolima/ts-app#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.14",
