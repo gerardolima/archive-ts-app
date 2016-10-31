@@ -2,11 +2,11 @@
   "name": "gerardolima-ts-app",
   "version": "0.0.1",
   "description": "Test for building an Angular application using Typescript.",
-  "main": "./src/ts-app.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "clean": "rm -rf ./src/*.js",
-    "build": "tsc ./src/ts-app.ts --module commonjs",
+    "clean": "rm -rf ./dist",
+    "build": "tsc ./src/index.ts --module commonjs --outDir dist",
     "cover": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
