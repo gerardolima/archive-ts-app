@@ -1,3 +1,2 @@
-import myLocaleString = require("./myLocaleString");
-
- export = myLocaleString;
+import { MyAppClass } from "./MyAppClass"; 
+export = new MyAppClass("this-is-an-app-instance");
