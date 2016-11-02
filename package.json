@@ -4,9 +4,10 @@
   "description": "Test for building an Angular application using Typescript.",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "node node_modules/mocha/bin/mocha --reporter spec",
     "clean": "rm -rf ./dist",
     "build": "tsc ./src/index.ts --module commonjs --outDir dist",
+    "-postbuild": "browserify ./dist/index.js --outfile ./dist/bundle.js",
     "cover": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
