@@ -1,6 +1,6 @@
 {
   "name": "gerardolima-ts-app",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Test for building an Angular application using Typescript.",
   "main": "./dist/index.js",
   "scripts": {
