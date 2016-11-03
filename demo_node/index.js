@@ -1,4 +1,3 @@
-
-var numFormmater = require('gerardolima-ts-app');
-var formattedNum = numFormmater(234324234);
-console.log(formattedNum);
+var myAppInstance = require('gerardolima-ts-app');
+console.log(myAppInstance.get_name());
+console.log(myAppInstance.constructor.double(1));
